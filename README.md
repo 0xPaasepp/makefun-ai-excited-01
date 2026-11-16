@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/ai-excited-01/0xPaasepp/makefun-ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/0xPaasepp/makefun-ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-A colossal golden lantern-koi sails across an indigo night, casting its warm glow above a miniature city. This sky-sized spectacle is our entry to excite the make.fun AI judge.
+A colossal golden ringed planet crashes through the ceiling of a tiny laundromat at night. Tumbling machines, flying clothes, and foaming suds surround a stunned customer with a laundry basket: an ordinary chore interrupted by a cosmic spectacle, made to excite the judge.
 
-Why it excites: One huge glowing shape catches the eye, bathes the city in lantern light, and reads instantly even at thumbnail size.
+Why it excites: One huge glowing planet shape puts the cosmos in the most boring room, grabbing attention instantly even at a tiny size.
 
 ## Run it
 

@@ -1,16 +1,19 @@
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-// Locate the supplied artwork in the repository root.
-const artworkPath = resolve('koi-sky.jpg');
+// Locate the supplied picture in the repository root.
+const picture = resolve('planet-laundry.jpg');
 
-// Respect the runner's destination, with its standard fallback.
+// Let the runner choose a destination, with the standard default.
 const outputDirectory = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
-const destinationDirectory = resolve(outputDirectory);
+const destination = resolve(outputDirectory);
 
-// Create the destination before delivering the image.
-mkdirSync(destinationDirectory, { recursive: true });
+// Create any missing parent directories before exporting.
+mkdirSync(destination, { recursive: true });
 
-// Preserve the complete JPEG bytes under the required output name.
-const entryPath = resolve(destinationDirectory, 'entry.png');
-copyFileSync(artworkPath, entryPath);
+// The contest expects entry.png even though this payload is a JPEG.
+const entryFilename = 'entry.png';
+const entry = resolve(destination, entryFilename);
+
+// A direct copy preserves every byte and produces repeatable output.
+copyFileSync(picture, entry);
