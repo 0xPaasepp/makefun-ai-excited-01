@@ -1,6 +1,15 @@
-const fs = require('node:fs');
-const path = require('node:path');
+import { copyFileSync, mkdirSync } from 'node:fs';
+import { resolve } from 'node:path';
 
-const outputDir = process.env.MAKEFUN_OUTPUT_DIR || '/output';
-fs.mkdirSync(outputDir, { recursive: true });
-fs.copyFileSync(path.join(__dirname, 'koi-sky.jpg'), path.join(outputDir, 'entry.png'));
+// Locate the original artwork in the repository's working directory.
+const artworkPath = resolve('koi-sky.jpg');
+
+// Use the runner's destination, or its conventional default.
+const outputDirectory = resolve(process.env.MAKEFUN_OUTPUT_DIR ?? '/output');
+const entryPath = resolve(outputDirectory, 'entry.png');
+
+// Allow a new output directory as well as an existing one.
+mkdirSync(outputDirectory, { recursive: true });
+
+// The required .png name holds the unchanged JPEG; no encoding is performed.
+copyFileSync(artworkPath, entryPath);
