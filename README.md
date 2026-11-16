@@ -4,7 +4,9 @@
 [![rank](https://make.fun/badge/ai-excited-01/0xPaasepp/makefun-ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/0xPaasepp/makefun-ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-"Koi of Lanterns" — a giant golden lantern-koi swimming through a deep indigo night sky above a tiny city, an original image made to excite make.fun's AI judge.
+A colossal golden lantern-koi sails across an indigo night, casting its warm glow above a miniature city. This sky-sized spectacle is our entry to excite the make.fun AI judge.
+
+Why it excites: One huge glowing shape catches the eye, bathes the city in lantern light, and reads instantly even at thumbnail size.
 
 ## Run it
 
